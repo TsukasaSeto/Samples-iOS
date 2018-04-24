@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20050D78208EA7C200481462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20050D77208EA7C200481462 /* AppDelegate.swift */; };
+		20050D7A208EA7C200481462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20050D79208EA7C200481462 /* ViewController.swift */; };
+		20050D7D208EA7C200481462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20050D7B208EA7C200481462 /* Main.storyboard */; };
+		20050D7F208EA7C300481462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20050D7E208EA7C300481462 /* Assets.xcassets */; };
+		20050D82208EA7C300481462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20050D80208EA7C300481462 /* LaunchScreen.storyboard */; };
+		20050D89208EA8DF00481462 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20050D88208EA8DF00481462 /* MapKit.framework */; };
 		2012A27D208EA4BC00262AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2012A27C208EA4BC00262AAF /* AppDelegate.swift */; };
 		2012A27F208EA4BC00262AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2012A27E208EA4BC00262AAF /* ViewController.swift */; };
 		2012A282208EA4BC00262AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2012A280208EA4BC00262AAF /* Main.storyboard */; };
@@ -15,6 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20050D75208EA7C200481462 /* SampleMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20050D77208EA7C200481462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20050D79208EA7C200481462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20050D7C208EA7C200481462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20050D7E208EA7C300481462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20050D81208EA7C300481462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20050D83208EA7C300481462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20050D88208EA8DF00481462 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		20050D8A208EA8F800481462 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		20050D8B208EA95E00481462 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2012A279208EA4BC00262AAF /* escitalopram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = escitalopram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2012A27C208EA4BC00262AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2012A27E208EA4BC00262AAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +41,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20050D72208EA7C200481462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20050D89208EA8DF00481462 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2012A276208EA4BC00262AAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,11 +59,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20050D76208EA7C200481462 /* SampleMap */ = {
+			isa = PBXGroup;
+			children = (
+				20050D8A208EA8F800481462 /* README.md */,
+				20050D77208EA7C200481462 /* AppDelegate.swift */,
+				20050D79208EA7C200481462 /* ViewController.swift */,
+				20050D7B208EA7C200481462 /* Main.storyboard */,
+				20050D7E208EA7C300481462 /* Assets.xcassets */,
+				20050D80208EA7C300481462 /* LaunchScreen.storyboard */,
+				20050D83208EA7C300481462 /* Info.plist */,
+			);
+			path = SampleMap;
+			sourceTree = "<group>";
+		};
+		20050D87208EA8DF00481462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20050D88208EA8DF00481462 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2012A270208EA4BC00262AAF = {
 			isa = PBXGroup;
 			children = (
+				20050D8B208EA95E00481462 /* .gitignore */,
 				2012A27B208EA4BC00262AAF /* escitalopram */,
+				20050D76208EA7C200481462 /* SampleMap */,
 				2012A27A208EA4BC00262AAF /* Products */,
+				20050D87208EA8DF00481462 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				2012A279208EA4BC00262AAF /* escitalopram.app */,
+				20050D75208EA7C200481462 /* SampleMap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +117,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		20050D74208EA7C200481462 /* SampleMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20050D86208EA7C300481462 /* Build configuration list for PBXNativeTarget "SampleMap" */;
+			buildPhases = (
+				20050D71208EA7C200481462 /* Sources */,
+				20050D72208EA7C200481462 /* Frameworks */,
+				20050D73208EA7C200481462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleMap;
+			productName = SampleMap;
+			productReference = 20050D75208EA7C200481462 /* SampleMap.app */;
+			productType = "com.apple.product-type.application";
+		};
 		2012A278208EA4BC00262AAF /* escitalopram */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2012A28B208EA4BD00262AAF /* Build configuration list for PBXNativeTarget "escitalopram" */;
@@ -94,6 +161,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Tsukasa Seto";
 				TargetAttributes = {
+					20050D74208EA7C200481462 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					2012A278208EA4BC00262AAF = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -113,11 +183,22 @@
 			projectRoot = "";
 			targets = (
 				2012A278208EA4BC00262AAF /* escitalopram */,
+				20050D74208EA7C200481462 /* SampleMap */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		20050D73208EA7C200481462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20050D82208EA7C300481462 /* LaunchScreen.storyboard in Resources */,
+				20050D7F208EA7C300481462 /* Assets.xcassets in Resources */,
+				20050D7D208EA7C200481462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2012A277208EA4BC00262AAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,6 +212,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20050D71208EA7C200481462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20050D7A208EA7C200481462 /* ViewController.swift in Sources */,
+				20050D78208EA7C200481462 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2012A275208EA4BC00262AAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +233,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		20050D7B208EA7C200481462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20050D7C208EA7C200481462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20050D80208EA7C300481462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20050D81208EA7C300481462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		2012A280208EA4BC00262AAF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -162,6 +268,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		20050D84208EA7C300481462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH7U454873;
+				INFOPLIST_FILE = SampleMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20050D85208EA7C300481462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH7U454873;
+				INFOPLIST_FILE = SampleMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2012A289208EA4BD00262AAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -315,6 +457,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20050D86208EA7C300481462 /* Build configuration list for PBXNativeTarget "SampleMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20050D84208EA7C300481462 /* Debug */,
+				20050D85208EA7C300481462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2012A274208EA4BC00262AAF /* Build configuration list for PBXProject "escitalopram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
