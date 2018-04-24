@@ -18,6 +18,11 @@
 		2012A282208EA4BC00262AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2012A280208EA4BC00262AAF /* Main.storyboard */; };
 		2012A284208EA4BD00262AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2012A283208EA4BD00262AAF /* Assets.xcassets */; };
 		2012A287208EA4BD00262AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2012A285208EA4BD00262AAF /* LaunchScreen.storyboard */; };
+		20EEE4AF208EB06C002C7028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EEE4AE208EB06C002C7028 /* AppDelegate.swift */; };
+		20EEE4B1208EB06C002C7028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EEE4B0208EB06C002C7028 /* ViewController.swift */; };
+		20EEE4B4208EB06C002C7028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EEE4B2208EB06C002C7028 /* Main.storyboard */; };
+		20EEE4B6208EB06D002C7028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EEE4B5208EB06D002C7028 /* Assets.xcassets */; };
+		20EEE4B9208EB06D002C7028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EEE4B7208EB06D002C7028 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,14 @@
 		2012A283208EA4BD00262AAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2012A286208EA4BD00262AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2012A288208EA4BD00262AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EEE4AC208EB06C002C7028 /* SampleCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EEE4AE208EB06C002C7028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20EEE4B0208EB06C002C7028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20EEE4B3208EB06C002C7028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20EEE4B5208EB06D002C7028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20EEE4B8208EB06D002C7028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20EEE4BA208EB06D002C7028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EEE4BE208EB168002C7028 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +63,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2012A276208EA4BC00262AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EEE4A9208EB06C002C7028 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,6 +107,7 @@
 				20050D8B208EA95E00481462 /* .gitignore */,
 				2012A27B208EA4BC00262AAF /* escitalopram */,
 				20050D76208EA7C200481462 /* SampleMap */,
+				20EEE4AD208EB06C002C7028 /* SampleCamera */,
 				2012A27A208EA4BC00262AAF /* Products */,
 				20050D87208EA8DF00481462 /* Frameworks */,
 			);
@@ -97,6 +118,7 @@
 			children = (
 				2012A279208EA4BC00262AAF /* escitalopram.app */,
 				20050D75208EA7C200481462 /* SampleMap.app */,
+				20EEE4AC208EB06C002C7028 /* SampleCamera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +134,20 @@
 				2012A288208EA4BD00262AAF /* Info.plist */,
 			);
 			path = escitalopram;
+			sourceTree = "<group>";
+		};
+		20EEE4AD208EB06C002C7028 /* SampleCamera */ = {
+			isa = PBXGroup;
+			children = (
+				20EEE4BE208EB168002C7028 /* README.md */,
+				20EEE4AE208EB06C002C7028 /* AppDelegate.swift */,
+				20EEE4B0208EB06C002C7028 /* ViewController.swift */,
+				20EEE4B2208EB06C002C7028 /* Main.storyboard */,
+				20EEE4B5208EB06D002C7028 /* Assets.xcassets */,
+				20EEE4B7208EB06D002C7028 /* LaunchScreen.storyboard */,
+				20EEE4BA208EB06D002C7028 /* Info.plist */,
+			);
+			path = SampleCamera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +187,23 @@
 			productReference = 2012A279208EA4BC00262AAF /* escitalopram.app */;
 			productType = "com.apple.product-type.application";
 		};
+		20EEE4AB208EB06C002C7028 /* SampleCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EEE4BD208EB06D002C7028 /* Build configuration list for PBXNativeTarget "SampleCamera" */;
+			buildPhases = (
+				20EEE4A8208EB06C002C7028 /* Sources */,
+				20EEE4A9208EB06C002C7028 /* Frameworks */,
+				20EEE4AA208EB06C002C7028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleCamera;
+			productName = SampleCamera;
+			productReference = 20EEE4AC208EB06C002C7028 /* SampleCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +218,9 @@
 						CreatedOnToolsVersion = 9.3;
 					};
 					2012A278208EA4BC00262AAF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					20EEE4AB208EB06C002C7028 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -184,6 +240,7 @@
 			targets = (
 				2012A278208EA4BC00262AAF /* escitalopram */,
 				20050D74208EA7C200481462 /* SampleMap */,
+				20EEE4AB208EB06C002C7028 /* SampleCamera */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +266,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		20EEE4AA208EB06C002C7028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EEE4B9208EB06D002C7028 /* LaunchScreen.storyboard in Resources */,
+				20EEE4B6208EB06D002C7028 /* Assets.xcassets in Resources */,
+				20EEE4B4208EB06C002C7028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -227,6 +294,15 @@
 			files = (
 				2012A27F208EA4BC00262AAF /* ViewController.swift in Sources */,
 				2012A27D208EA4BC00262AAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EEE4A8208EB06C002C7028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EEE4B1208EB06C002C7028 /* ViewController.swift in Sources */,
+				20EEE4AF208EB06C002C7028 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +337,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				2012A286208EA4BD00262AAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		20EEE4B2208EB06C002C7028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EEE4B3208EB06C002C7028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20EEE4B7208EB06D002C7028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EEE4B8208EB06D002C7028 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -454,6 +546,42 @@
 			};
 			name = Release;
 		};
+		20EEE4BB208EB06D002C7028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH7U454873;
+				INFOPLIST_FILE = SampleCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20EEE4BC208EB06D002C7028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH7U454873;
+				INFOPLIST_FILE = SampleCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -480,6 +608,15 @@
 			buildConfigurations = (
 				2012A28C208EA4BD00262AAF /* Debug */,
 				2012A28D208EA4BD00262AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EEE4BD208EB06D002C7028 /* Build configuration list for PBXNativeTarget "SampleCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EEE4BB208EB06D002C7028 /* Debug */,
+				20EEE4BC208EB06D002C7028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
