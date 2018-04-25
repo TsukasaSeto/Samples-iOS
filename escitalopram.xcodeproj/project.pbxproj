@@ -18,6 +18,12 @@
 		2012A282208EA4BC00262AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2012A280208EA4BC00262AAF /* Main.storyboard */; };
 		2012A284208EA4BD00262AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2012A283208EA4BD00262AAF /* Assets.xcassets */; };
 		2012A287208EA4BD00262AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2012A285208EA4BD00262AAF /* LaunchScreen.storyboard */; };
+		208659C9208FF4FE00D199B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208659C8208FF4FE00D199B0 /* AppDelegate.swift */; };
+		208659CB208FF4FE00D199B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208659CA208FF4FE00D199B0 /* ViewController.swift */; };
+		208659CE208FF4FE00D199B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208659CC208FF4FE00D199B0 /* Main.storyboard */; };
+		208659D0208FF4FF00D199B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208659CF208FF4FF00D199B0 /* Assets.xcassets */; };
+		208659D3208FF4FF00D199B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208659D1208FF4FF00D199B0 /* LaunchScreen.storyboard */; };
+		208659DA208FF8FE00D199B0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208659D9208FF8FE00D199B0 /* SettingViewController.swift */; };
 		20EEE4AF208EB06C002C7028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EEE4AE208EB06C002C7028 /* AppDelegate.swift */; };
 		20EEE4B1208EB06C002C7028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EEE4B0208EB06C002C7028 /* ViewController.swift */; };
 		20EEE4B4208EB06C002C7028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EEE4B2208EB06C002C7028 /* Main.storyboard */; };
@@ -43,6 +49,15 @@
 		2012A283208EA4BD00262AAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2012A286208EA4BD00262AAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2012A288208EA4BD00262AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208659C6208FF4FE00D199B0 /* SampleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		208659C8208FF4FE00D199B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		208659CA208FF4FE00D199B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		208659CD208FF4FE00D199B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		208659CF208FF4FF00D199B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		208659D2208FF4FF00D199B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		208659D4208FF4FF00D199B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208659D8208FF5EB00D199B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		208659D9208FF8FE00D199B0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		20EEE4AC208EB06C002C7028 /* SampleCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EEE4AE208EB06C002C7028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20EEE4B0208EB06C002C7028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +78,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2012A276208EA4BC00262AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208659C3208FF4FE00D199B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,6 +130,7 @@
 				2012A27B208EA4BC00262AAF /* escitalopram */,
 				20050D76208EA7C200481462 /* SampleMap */,
 				20EEE4AD208EB06C002C7028 /* SampleCamera */,
+				208659C7208FF4FE00D199B0 /* SampleTimer */,
 				2012A27A208EA4BC00262AAF /* Products */,
 				20050D87208EA8DF00481462 /* Frameworks */,
 			);
@@ -119,6 +142,7 @@
 				2012A279208EA4BC00262AAF /* escitalopram.app */,
 				20050D75208EA7C200481462 /* SampleMap.app */,
 				20EEE4AC208EB06C002C7028 /* SampleCamera.app */,
+				208659C6208FF4FE00D199B0 /* SampleTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +158,21 @@
 				2012A288208EA4BD00262AAF /* Info.plist */,
 			);
 			path = escitalopram;
+			sourceTree = "<group>";
+		};
+		208659C7208FF4FE00D199B0 /* SampleTimer */ = {
+			isa = PBXGroup;
+			children = (
+				208659D8208FF5EB00D199B0 /* README.md */,
+				208659C8208FF4FE00D199B0 /* AppDelegate.swift */,
+				208659CA208FF4FE00D199B0 /* ViewController.swift */,
+				208659D9208FF8FE00D199B0 /* SettingViewController.swift */,
+				208659CC208FF4FE00D199B0 /* Main.storyboard */,
+				208659CF208FF4FF00D199B0 /* Assets.xcassets */,
+				208659D1208FF4FF00D199B0 /* LaunchScreen.storyboard */,
+				208659D4208FF4FF00D199B0 /* Info.plist */,
+			);
+			path = SampleTimer;
 			sourceTree = "<group>";
 		};
 		20EEE4AD208EB06C002C7028 /* SampleCamera */ = {
@@ -187,6 +226,23 @@
 			productReference = 2012A279208EA4BC00262AAF /* escitalopram.app */;
 			productType = "com.apple.product-type.application";
 		};
+		208659C5208FF4FE00D199B0 /* SampleTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208659D7208FF4FF00D199B0 /* Build configuration list for PBXNativeTarget "SampleTimer" */;
+			buildPhases = (
+				208659C2208FF4FE00D199B0 /* Sources */,
+				208659C3208FF4FE00D199B0 /* Frameworks */,
+				208659C4208FF4FE00D199B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleTimer;
+			productName = SampleTimer;
+			productReference = 208659C6208FF4FE00D199B0 /* SampleTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
 		20EEE4AB208EB06C002C7028 /* SampleCamera */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20EEE4BD208EB06D002C7028 /* Build configuration list for PBXNativeTarget "SampleCamera" */;
@@ -220,6 +276,9 @@
 					2012A278208EA4BC00262AAF = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					208659C5208FF4FE00D199B0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					20EEE4AB208EB06C002C7028 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -241,6 +300,7 @@
 				2012A278208EA4BC00262AAF /* escitalopram */,
 				20050D74208EA7C200481462 /* SampleMap */,
 				20EEE4AB208EB06C002C7028 /* SampleCamera */,
+				208659C5208FF4FE00D199B0 /* SampleTimer */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +323,16 @@
 				2012A287208EA4BD00262AAF /* LaunchScreen.storyboard in Resources */,
 				2012A284208EA4BD00262AAF /* Assets.xcassets in Resources */,
 				2012A282208EA4BC00262AAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208659C4208FF4FE00D199B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208659D3208FF4FF00D199B0 /* LaunchScreen.storyboard in Resources */,
+				208659D0208FF4FF00D199B0 /* Assets.xcassets in Resources */,
+				208659CE208FF4FE00D199B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +364,16 @@
 			files = (
 				2012A27F208EA4BC00262AAF /* ViewController.swift in Sources */,
 				2012A27D208EA4BC00262AAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208659C2208FF4FE00D199B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208659CB208FF4FE00D199B0 /* ViewController.swift in Sources */,
+				208659C9208FF4FE00D199B0 /* AppDelegate.swift in Sources */,
+				208659DA208FF8FE00D199B0 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +417,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				2012A286208EA4BD00262AAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		208659CC208FF4FE00D199B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208659CD208FF4FE00D199B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		208659D1208FF4FF00D199B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208659D2208FF4FF00D199B0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -546,6 +642,42 @@
 			};
 			name = Release;
 		};
+		208659D5208FF4FF00D199B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH7U454873;
+				INFOPLIST_FILE = SampleTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		208659D6208FF4FF00D199B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH7U454873;
+				INFOPLIST_FILE = SampleTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		20EEE4BB208EB06D002C7028 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -608,6 +740,15 @@
 			buildConfigurations = (
 				2012A28C208EA4BD00262AAF /* Debug */,
 				2012A28D208EA4BD00262AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208659D7208FF4FF00D199B0 /* Build configuration list for PBXNativeTarget "SampleTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208659D5208FF4FF00D199B0 /* Debug */,
+				208659D6208FF4FF00D199B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
