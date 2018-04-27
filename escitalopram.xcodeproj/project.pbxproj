@@ -23,6 +23,12 @@
 		205050C520914D070046914D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205050C320914D070046914D /* Main.storyboard */; };
 		205050C720914D350046914D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205050C620914D350046914D /* Assets.xcassets */; };
 		205050CA20914D350046914D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205050C820914D350046914D /* LaunchScreen.storyboard */; };
+		207667192092A814004A3855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207667182092A814004A3855 /* AppDelegate.swift */; };
+		2076671B2092A814004A3855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076671A2092A814004A3855 /* ViewController.swift */; };
+		2076671E2092A814004A3855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2076671C2092A814004A3855 /* Main.storyboard */; };
+		207667202092A818004A3855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2076671F2092A818004A3855 /* Assets.xcassets */; };
+		207667232092A818004A3855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207667212092A818004A3855 /* LaunchScreen.storyboard */; };
+		2076672B2092AE20004A3855 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2076672A2092AE1F004A3855 /* CoreNFC.framework */; };
 		208659C9208FF4FE00D199B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208659C8208FF4FE00D199B0 /* AppDelegate.swift */; };
 		208659CB208FF4FE00D199B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208659CA208FF4FE00D199B0 /* ViewController.swift */; };
 		208659CE208FF4FE00D199B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208659CC208FF4FE00D199B0 /* Main.storyboard */; };
@@ -62,6 +68,16 @@
 		205050C620914D350046914D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205050C920914D350046914D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		205050CB20914D350046914D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207667162092A814004A3855 /* SampleNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207667182092A814004A3855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2076671A2092A814004A3855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2076671D2092A814004A3855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2076671F2092A818004A3855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207667222092A818004A3855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207667242092A818004A3855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207667282092A83E004A3855 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		207667292092ABDC004A3855 /* SampleNFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleNFC.entitlements; sourceTree = "<group>"; };
+		2076672A2092AE1F004A3855 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		208659C6208FF4FE00D199B0 /* SampleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		208659C8208FF4FE00D199B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		208659CA208FF4FE00D199B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +120,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		207667132092A814004A3855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2076672B2092AE20004A3855 /* CoreNFC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		208659C3208FF4FE00D199B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +162,7 @@
 		20050D87208EA8DF00481462 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2076672A2092AE1F004A3855 /* CoreNFC.framework */,
 				20050D88208EA8DF00481462 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -152,6 +177,7 @@
 				20EEE4AD208EB06C002C7028 /* SampleCamera */,
 				208659C7208FF4FE00D199B0 /* SampleTimer */,
 				205050BE20914D060046914D /* SampleSunriseTimeSearch */,
+				207667172092A814004A3855 /* SampleNFC */,
 				2012A27A208EA4BC00262AAF /* Products */,
 				20050D87208EA8DF00481462 /* Frameworks */,
 			);
@@ -165,6 +191,7 @@
 				20EEE4AC208EB06C002C7028 /* SampleCamera.app */,
 				208659C6208FF4FE00D199B0 /* SampleTimer.app */,
 				205050BD20914D050046914D /* SampleSunriseTimeSearch.app */,
+				207667162092A814004A3855 /* SampleNFC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +221,21 @@
 				205050CB20914D350046914D /* Info.plist */,
 			);
 			path = SampleSunriseTimeSearch;
+			sourceTree = "<group>";
+		};
+		207667172092A814004A3855 /* SampleNFC */ = {
+			isa = PBXGroup;
+			children = (
+				207667292092ABDC004A3855 /* SampleNFC.entitlements */,
+				207667182092A814004A3855 /* AppDelegate.swift */,
+				2076671A2092A814004A3855 /* ViewController.swift */,
+				2076671C2092A814004A3855 /* Main.storyboard */,
+				2076671F2092A818004A3855 /* Assets.xcassets */,
+				207667212092A818004A3855 /* LaunchScreen.storyboard */,
+				207667242092A818004A3855 /* Info.plist */,
+				207667282092A83E004A3855 /* README.md */,
+			);
+			path = SampleNFC;
 			sourceTree = "<group>";
 		};
 		208659C7208FF4FE00D199B0 /* SampleTimer */ = {
@@ -279,6 +321,23 @@
 			productReference = 205050BD20914D050046914D /* SampleSunriseTimeSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		207667152092A814004A3855 /* SampleNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207667272092A818004A3855 /* Build configuration list for PBXNativeTarget "SampleNFC" */;
+			buildPhases = (
+				207667122092A814004A3855 /* Sources */,
+				207667132092A814004A3855 /* Frameworks */,
+				207667142092A814004A3855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleNFC;
+			productName = SampleNFC;
+			productReference = 207667162092A814004A3855 /* SampleNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
 		208659C5208FF4FE00D199B0 /* SampleTimer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 208659D7208FF4FF00D199B0 /* Build configuration list for PBXNativeTarget "SampleTimer" */;
@@ -332,6 +391,14 @@
 					205050BC20914D050046914D = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					207667152092A814004A3855 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
+					};
 					208659C5208FF4FE00D199B0 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -358,6 +425,7 @@
 				20EEE4AB208EB06C002C7028 /* SampleCamera */,
 				208659C5208FF4FE00D199B0 /* SampleTimer */,
 				205050BC20914D050046914D /* SampleSunriseTimeSearch */,
+				207667152092A814004A3855 /* SampleNFC */,
 			);
 		};
 /* End PBXProject section */
@@ -390,6 +458,16 @@
 				205050CA20914D350046914D /* LaunchScreen.storyboard in Resources */,
 				205050C720914D350046914D /* Assets.xcassets in Resources */,
 				205050C520914D070046914D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207667142092A814004A3855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207667232092A818004A3855 /* LaunchScreen.storyboard in Resources */,
+				207667202092A818004A3855 /* Assets.xcassets in Resources */,
+				2076671E2092A814004A3855 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +518,15 @@
 			files = (
 				205050C220914D070046914D /* ViewController.swift in Sources */,
 				205050C020914D070046914D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207667122092A814004A3855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2076671B2092A814004A3855 /* ViewController.swift in Sources */,
+				207667192092A814004A3855 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +600,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		2076671C2092A814004A3855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2076671D2092A814004A3855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		207667212092A818004A3855 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207667222092A818004A3855 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		208659CC208FF4FE00D199B0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -559,7 +662,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleMap;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.escitalopram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -577,7 +680,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleMap;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.escitalopram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -745,7 +848,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleSunriseTimeSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.escitalopram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -763,8 +866,50 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleSunriseTimeSearch;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.escitalopram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		207667252092A818004A3855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SampleNFC/SampleNFC.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2473VK4WC2;
+				INFOPLIST_FILE = SampleNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ricoh.jrits.samplenfc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		207667262092A818004A3855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SampleNFC/SampleNFC.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2473VK4WC2;
+				INFOPLIST_FILE = SampleNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ricoh.jrits.samplenfc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -781,7 +926,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.escitalopram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -799,7 +944,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.escitalopram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -817,7 +962,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleCamera;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.escitalopram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -835,7 +980,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleCamera;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.escitalopram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -877,6 +1022,15 @@
 			buildConfigurations = (
 				205050CC20914D360046914D /* Debug */,
 				205050CD20914D360046914D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207667272092A818004A3855 /* Build configuration list for PBXNativeTarget "SampleNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207667252092A818004A3855 /* Debug */,
+				207667262092A818004A3855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
