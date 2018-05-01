@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2004CF5C2097F45400B66CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004CF5B2097F45400B66CE5 /* AppDelegate.swift */; };
+		2004CF5E2097F45400B66CE5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2004CF5D2097F45400B66CE5 /* art.scnassets */; };
+		2004CF602097F45400B66CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004CF5F2097F45400B66CE5 /* ViewController.swift */; };
+		2004CF632097F45400B66CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2004CF612097F45400B66CE5 /* Main.storyboard */; };
+		2004CF652097F45800B66CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2004CF642097F45800B66CE5 /* Assets.xcassets */; };
+		2004CF682097F45800B66CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2004CF662097F45800B66CE5 /* LaunchScreen.storyboard */; };
+		2004CF702098087200B66CE5 /* earthmap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2004CF6F2098087200B66CE5 /* earthmap.jpeg */; };
+		2004CF722098087800B66CE5 /* brick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2004CF712098087800B66CE5 /* brick.jpg */; };
+		2004CF74209815AB00B66CE5 /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 2004CF73209815AB00B66CE5 /* overlay_grid.png */; };
+		2004CF76209815B300B66CE5 /* GridPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004CF75209815B300B66CE5 /* GridPlane.swift */; };
 		20050D78208EA7C200481462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20050D77208EA7C200481462 /* AppDelegate.swift */; };
 		20050D7A208EA7C200481462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20050D79208EA7C200481462 /* ViewController.swift */; };
 		20050D7D208EA7C200481462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20050D7B208EA7C200481462 /* Main.storyboard */; };
@@ -43,6 +53,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2004CF592097F45400B66CE5 /* SampleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2004CF5B2097F45400B66CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2004CF5D2097F45400B66CE5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2004CF5F2097F45400B66CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2004CF622097F45400B66CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2004CF642097F45800B66CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2004CF672097F45800B66CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2004CF692097F45800B66CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2004CF6D2097F48100B66CE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2004CF6E2097F5A000B66CE5 /* Scene-Nodeの関係.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scene-Nodeの関係.png"; sourceTree = "<group>"; };
+		2004CF6F2098087200B66CE5 /* earthmap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earthmap.jpeg; sourceTree = "<group>"; };
+		2004CF712098087800B66CE5 /* brick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brick.jpg; sourceTree = "<group>"; };
+		2004CF73209815AB00B66CE5 /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
+		2004CF75209815B300B66CE5 /* GridPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridPlane.swift; sourceTree = "<group>"; };
+		2004CF772098195400B66CE5 /* ARSCNDelegateの仕組み.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARSCNDelegateの仕組み.png"; sourceTree = "<group>"; };
 		20050D75208EA7C200481462 /* SampleMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20050D77208EA7C200481462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20050D79208EA7C200481462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +123,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2004CF562097F45400B66CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20050D72208EA7C200481462 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +177,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2004CF5A2097F45400B66CE5 /* SampleAR */ = {
+			isa = PBXGroup;
+			children = (
+				2004CF6D2097F48100B66CE5 /* README.md */,
+				2004CF6E2097F5A000B66CE5 /* Scene-Nodeの関係.png */,
+				2004CF772098195400B66CE5 /* ARSCNDelegateの仕組み.png */,
+				2004CF5B2097F45400B66CE5 /* AppDelegate.swift */,
+				2004CF5D2097F45400B66CE5 /* art.scnassets */,
+				2004CF5F2097F45400B66CE5 /* ViewController.swift */,
+				2004CF75209815B300B66CE5 /* GridPlane.swift */,
+				2004CF712098087800B66CE5 /* brick.jpg */,
+				2004CF6F2098087200B66CE5 /* earthmap.jpeg */,
+				2004CF73209815AB00B66CE5 /* overlay_grid.png */,
+				2004CF612097F45400B66CE5 /* Main.storyboard */,
+				2004CF642097F45800B66CE5 /* Assets.xcassets */,
+				2004CF662097F45800B66CE5 /* LaunchScreen.storyboard */,
+				2004CF692097F45800B66CE5 /* Info.plist */,
+			);
+			path = SampleAR;
+			sourceTree = "<group>";
+		};
 		20050D76208EA7C200481462 /* SampleMap */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +231,7 @@
 				208659C7208FF4FE00D199B0 /* SampleTimer */,
 				205050BE20914D060046914D /* SampleSunriseTimeSearch */,
 				207667172092A814004A3855 /* SampleNFC */,
+				2004CF5A2097F45400B66CE5 /* SampleAR */,
 				2012A27A208EA4BC00262AAF /* Products */,
 				20050D87208EA8DF00481462 /* Frameworks */,
 			);
@@ -192,6 +246,7 @@
 				208659C6208FF4FE00D199B0 /* SampleTimer.app */,
 				205050BD20914D050046914D /* SampleSunriseTimeSearch.app */,
 				207667162092A814004A3855 /* SampleNFC.app */,
+				2004CF592097F45400B66CE5 /* SampleAR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,6 +325,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2004CF582097F45400B66CE5 /* SampleAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2004CF6C2097F45800B66CE5 /* Build configuration list for PBXNativeTarget "SampleAR" */;
+			buildPhases = (
+				2004CF552097F45400B66CE5 /* Sources */,
+				2004CF562097F45400B66CE5 /* Frameworks */,
+				2004CF572097F45400B66CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAR;
+			productName = SampleAR;
+			productReference = 2004CF592097F45400B66CE5 /* SampleAR.app */;
+			productType = "com.apple.product-type.application";
+		};
 		20050D74208EA7C200481462 /* SampleMap */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20050D86208EA7C300481462 /* Build configuration list for PBXNativeTarget "SampleMap" */;
@@ -382,6 +454,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Tsukasa Seto";
 				TargetAttributes = {
+					2004CF582097F45400B66CE5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					20050D74208EA7C200481462 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -426,11 +501,26 @@
 				208659C5208FF4FE00D199B0 /* SampleTimer */,
 				205050BC20914D050046914D /* SampleSunriseTimeSearch */,
 				207667152092A814004A3855 /* SampleNFC */,
+				2004CF582097F45400B66CE5 /* SampleAR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2004CF572097F45400B66CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2004CF5E2097F45400B66CE5 /* art.scnassets in Resources */,
+				2004CF682097F45800B66CE5 /* LaunchScreen.storyboard in Resources */,
+				2004CF652097F45800B66CE5 /* Assets.xcassets in Resources */,
+				2004CF702098087200B66CE5 /* earthmap.jpeg in Resources */,
+				2004CF632097F45400B66CE5 /* Main.storyboard in Resources */,
+				2004CF74209815AB00B66CE5 /* overlay_grid.png in Resources */,
+				2004CF722098087800B66CE5 /* brick.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20050D73208EA7C200481462 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +584,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2004CF552097F45400B66CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2004CF76209815B300B66CE5 /* GridPlane.swift in Sources */,
+				2004CF602097F45400B66CE5 /* ViewController.swift in Sources */,
+				2004CF5C2097F45400B66CE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20050D71208EA7C200481462 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -552,6 +652,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2004CF612097F45400B66CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2004CF622097F45400B66CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2004CF662097F45800B66CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2004CF672097F45800B66CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		20050D7B208EA7C200481462 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -651,6 +767,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2004CF6A2097F45800B66CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH7U454873;
+				INFOPLIST_FILE = SampleAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2004CF6B2097F45800B66CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH7U454873;
+				INFOPLIST_FILE = SampleAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mycompany.SampleAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		20050D84208EA7C300481462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -990,6 +1142,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2004CF6C2097F45800B66CE5 /* Build configuration list for PBXNativeTarget "SampleAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2004CF6A2097F45800B66CE5 /* Debug */,
+				2004CF6B2097F45800B66CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		20050D86208EA7C300481462 /* Build configuration list for PBXNativeTarget "SampleMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
