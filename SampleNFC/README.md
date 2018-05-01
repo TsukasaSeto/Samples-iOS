@@ -7,6 +7,7 @@ NFCタグを読み取った内容を表示するサンプルアプリケーシ�
 
 ## 開発メモ  
 
+* Freeの開発アカウントではCoreNFCが利用できない
 * CapabilitiesでNFCをONにする
 * Linked Frameworks and Libraries で CoreNFC.frameworkを選択する
 * Info.plist で Privacy -NFC Scan Usage Description を追加
